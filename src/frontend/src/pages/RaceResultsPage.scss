@@ -1,0 +1,57 @@
+.RaceResultsPage {
+  width: 800px;
+
+  .page-heading {
+    margin-top: 10px;
+  }
+
+  .race-detail {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 15px;
+  }
+
+  .race-venue,
+  .additional-detail {
+    margin-top: 10px;
+  }
+
+  .race-date,
+  .race-location {
+    margin-top: 4px;
+  }
+
+  .additional-detail {
+    margin-top: 5px;
+    font-size: 1.1rem;
+
+    & > p {
+      margin-top: 2px;
+    }
+  }
+
+  .results-header {
+    color: #00ffff;
+    margin-top: 20px;
+  }
+
+  .cards-header {
+    display: grid;
+    grid-template-columns: 40px 140px 155px 60px repeat(3, 1fr) 40px;
+    border: 2px solid #00ffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    & > p {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      justify-self: left;
+      font-size: 1.1rem;
+    }
+  }
+}
+.home-link {
+  padding: 0;
+}

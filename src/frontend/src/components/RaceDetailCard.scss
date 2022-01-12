@@ -1,0 +1,46 @@
+.RaceDetailCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+
+  .race-venue,
+  .additional-detail {
+    margin-top: 10px;
+  }
+
+  .race-date,
+  .race-location {
+    margin-top: 4px;
+  }
+
+  .additional-detail {
+    margin-top: 5px;
+    font-size: 1.1rem;
+
+    & > p {
+      margin-top: 2px;
+    }
+  }
+
+  .race-result {
+    text-align: right;
+    align-self: top;
+
+    & > p,
+    h3 {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
+
+  a {
+    color: #7fffbf;
+  }
+
+  a:hover,
+  a:focus {
+    color: white;
+  }
+}

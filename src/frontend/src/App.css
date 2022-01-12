@@ -1,0 +1,24 @@
+html {
+  font-size: 62.5%;
+}
+
+.App {
+  padding: 2rem;
+  text-align: left;
+}
+
+.won-gold {
+  background-color: #c19d42;
+}
+
+.won-silver {
+  background-color: #7e8085;
+}
+
+.won-bronze {
+  background-color: #583e2c;
+}
+
+.no-wins {
+  background-color: #333842;
+}

@@ -1,0 +1,11 @@
+.ResultCard {
+  display: grid;
+  grid-template-columns: 40px 140px 155px 60px repeat(3, 1fr) 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  p {
+    padding-top: 5px;
+    font-size: 1.1rem;
+  }
+}

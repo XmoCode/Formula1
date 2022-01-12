@@ -1,0 +1,25 @@
+.RaceSmallCard {
+  padding: 10px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+
+  .race-date {
+    margin-top: 5px;
+  }
+  .race-location {
+    margin-top: 5px;
+  }
+  & > h3,
+  h4 {
+    margin-top: 5px;
+  }
+
+  a {
+    color: #7fffbf;
+  }
+
+  a:hover,
+  a:focus {
+    color: white;
+  }
+}

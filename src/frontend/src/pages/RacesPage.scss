@@ -1,0 +1,14 @@
+.RacesPage {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-template-rows: 1fr;
+
+  .year-selector {
+    justify-self: start;
+    padding-top: 80px;
+  }
+
+  .page-heading {
+    margin: 20px auto;
+  }
+}

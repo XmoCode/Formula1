@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: mediumspringgreen;
+}
+
+a:hover,
+a:focus {
+  color: white;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  color: white;
+  max-width: 800px;
+  max-height: 800px;
+  margin: 0 auto;
+  font-size: 1.4rem;
+}
+.home-link {
+  font-size: 1.55rem;
+  font-weight: 500;
+}
